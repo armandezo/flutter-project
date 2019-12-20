@@ -1,19 +1,3 @@
-/*
- * Copyright 2018 Harsh Sharma
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- */
 
 ///////////////////////////////////////////////////////////////////////////////
 class APIConstants {
@@ -23,11 +7,11 @@ class APIConstants {
 
 ///////////////////////////////////////////////////////////////////////////////
 class APIOperations {
-  static const String LOGIN = "login";
-  static const String REGISTER = "register";
+  static const String LOGIN = "iniciar sesión";
+  static const String REGISTER = "registro";
   static const String CHANGE_PASSWORD = "chgPass";
-  static const String SUCCESS = "success";
-  static const String FAILURE = "failure";
+  static const String SUCCESS = "exito";
+  static const String FAILURE = "fracaso";
 }
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -57,50 +41,49 @@ class APIResponseCode {
 ///////////////////////////////////////////////////////////////////////////////
 
 class SharedPreferenceKeys {
-  static const String IS_USER_LOGGED_IN = "IS_USER_LOGGED_IN";
+  static const String IS_USER_LOGGED_IN = "El usuario ha iniciado sesión";
   static const String USER = "USER";
 }
 
 ///////////////////////////////////////////////////////////////////////////////
 class ProgressDialogTitles {
-  static const String IN_PROGRESS = "In Progress...";
-  static const String USER_LOG_IN = "Logging In...";
-  static const String USER_CHANGE_PASSWORD = "Changing...";
-  static const String USER_REGISTER = "Registering...";
+  static const String IN_PROGRESS = "En progreso...";
+  static const String USER_LOG_IN = "Iniciar sesión...";
+  static const String USER_CHANGE_PASSWORD = "Cambiando...";
+  static const String USER_REGISTER = "Registrarse...";
 }
 
 ///////////////////////////////////////////////////////////////////////////////
 class SnackBarText {
-  static const String NO_INTERNET_CONNECTION = "No Internet Conenction";
+  static const String NO_INTERNET_CONNECTION = "Sin conexión a Internet";
   static const String LOGIN_SUCCESSFUL = "Login Successful";
-  static const String LOGIN_UN_SUCCESSFUL = "Login Un Successful";
-  static const String CHANGE_PASSWORD_SUCCESSFUL = "Change Password Successful";
-  static const String CHANGE_PASSWORD_UN_SUCCESSFUL =
-      "Change Password Un Successful";
-  static const String REGISTER_SUCCESSFUL = "Register Successful";
-  static const String REGISTER_UN_SUCCESSFUL = "Register Un Successful";
-  static const String USER_ALREADY_REGISTERED = "User Already Registered";
-  static const String ENTER_PASS = "Please Enter your Password";
-  static const String ENTER_NEW_PASS = "Please Enter your New Password";
-  static const String ENTER_OLD_PASS = "Please Enter your Old Password";
-  static const String ENTER_EMAIL = "Please Enter your Email Id";
-  static const String ENTER_VALID_MAIL = "Please Enter Valid Email Id";
-  static const String ENTER_NAME = "Please Enter your Name";
-  static const String INVALID_OLD_PASSWORD = "Invalid Old Password";
+  static const String LOGIN_UN_SUCCESSFUL = "Iniciar sesión sin éxito";
+  static const String CHANGE_PASSWORD_SUCCESSFUL = "Cambio de contraseña exitoso";
+  static const String CHANGE_PASSWORD_UN_SUCCESSFUL = "Cambiar contraseña sin éxito";
+  static const String REGISTER_SUCCESSFUL = "Registro exitoso";
+  static const String REGISTER_UN_SUCCESSFUL = "Registro sin éxito";
+  static const String USER_ALREADY_REGISTERED = "Usuario ya registrado";
+  static const String ENTER_PASS = "Por favor, introduzca su contraseña";
+  static const String ENTER_NEW_PASS = "Por favor ingrese su nueva contraseña";
+  static const String ENTER_OLD_PASS = "Por favor, introduzca su contraseña anterior";
+  static const String ENTER_EMAIL = "Por favor, introduzca su ID de correo electrónico";
+  static const String ENTER_VALID_MAIL = "Por favor, introduzca una identificación válida";
+  static const String ENTER_NAME = "Por favor, escriba su nombre";
+  static const String INVALID_OLD_PASSWORD = "Contraseña antigua no válida";
 }
 
 ///////////////////////////////////////////////////////////////////////////////
 class Texts {
-  static const String REGISTER_NOW = "Not Registered ? Register Now !";
-  static const String LOGIN_NOW = "Already Registered ? Login Now !";
-  static const String LOGIN = "LOGIN";
-  static const String REGISTER = "REGISTER";
-  static const String PASSWORD = "Password";
-  static const String OLD_PASSWORD = "Old Password";
-  static const String NEW_PASSWORD = "New Password";
-  static const String CHANGE_PASSWORD = "CHANGE PASSWORD";
-  static const String LOGOUT = "LOGOUT";
+  static const String REGISTER_NOW = "Aùn no Registrado ? Registrate Ahora !";
+  static const String LOGIN_NOW = "Ya registrado? Ingresar Ahora!";
+  static const String LOGIN = "INICIAR SESIÓN";
+  static const String REGISTER = "REGISTRO";
+  static const String PASSWORD = "Contraseña";
+  static const String OLD_PASSWORD = "Contraseña Antigua";
+  static const String NEW_PASSWORD = "Nueva Contraseña";
+  static const String CHANGE_PASSWORD = "Olvidè mi Contraseña?";
+  static const String LOGOUT = "CERRAR SESIÓN";
   static const String EMAIL = "Email";
-  static const String NAME = "Name";
+  static const String NAME = "Nombre";
 }
 ///////////////////////////////////////////////////////////////////////////////
